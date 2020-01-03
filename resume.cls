@@ -31,9 +31,9 @@
 {\em #3} \hfill {\em #4}
 }\smallskip
 \begin{list}{$\rightarrow$}{\leftmargin=1.5em}
-\itemsep -0.5em \vspace{-0.5em}
+\itemsep -0.5em \vspace{-0.75em}
 }{
 \end{list}
-\vspace{0.5em}
+\vspace{0.75em}
 }
 
