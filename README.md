@@ -1,8 +1,14 @@
-# [resume](./resume.pdf)
+# [resume](resume.pdf)
 
 ## dependencies
-```bash
+```shell script
 sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+```
+
+## compile
+
+```shell script
+/Library/TeX/texbin/pdflatex -file-line-error -interaction=nonstopmode -synctex=1 -output-format=pdf -output-directory=./out resume.tex
 ```
 
 
