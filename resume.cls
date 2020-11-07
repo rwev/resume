@@ -1,6 +1,15 @@
 \ProvidesClass{resume}[]
 
-\LoadClass[11pt,letterpaper]{article} % Font size and paper type
+\LoadClass[10pt,letterpaper]{article} % Font size and paper type
+
+
+\renewcommand{\familydefault}{\sfdefault} % sfdefault = sans serif; ttdefault = monospace ; rmdefault = serif
+
+\usepackage[colorlinks = true,
+linkcolor = blue,
+urlcolor  = blue,
+citecolor = blue,
+anchorcolor = blue]{hyperref}
 
 \usepackage[left=0.75in,top=0.75in,right=0.75in,bottom=0.75in]{geometry} % Document margins
 
@@ -12,10 +21,12 @@
 
 \newenvironment{cvSection}[1]{
 \bigskip
-{\Large \bf #1}
-\medskip
+
+{\large \bf #1}
+
+\smallskip
 \hrule
-\medskip
+
 \begin{list}{}{
 \setlength{\leftmargin}{0em}
 }
@@ -29,11 +40,11 @@
 \ifthenelse{\equal{#3}{}}{}{
 \\
 {\em #3} \hfill {\em #4}
-}\smallskip
+}
+\vspace{-0.5em}
 \begin{list}{$\rightarrow$}{\leftmargin=1.5em}
-\itemsep -0.5em \vspace{-0.75em}
+\itemsep -0.5em
 }{
 \end{list}
-\vspace{0.75em}
 }
 
