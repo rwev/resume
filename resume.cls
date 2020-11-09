@@ -11,7 +11,7 @@ urlcolor  = blue,
 citecolor = blue,
 anchorcolor = blue]{hyperref}
 
-\usepackage[left=0.75in,top=0.75in,right=0.75in,bottom=0.75in]{geometry} % Document margins
+\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry}
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
