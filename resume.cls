@@ -2,7 +2,6 @@
 
 \LoadClass[10pt,letterpaper]{article} % Font size and paper type
 
-
 \renewcommand{\familydefault}{\sfdefault} % sfdefault = sans serif; ttdefault = monospace ; rmdefault = serif
 
 \usepackage[colorlinks = true,
@@ -11,7 +10,7 @@ urlcolor  = blue,
 citecolor = blue,
 anchorcolor = blue]{hyperref}
 
-\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry}
+\usepackage[left=0.75in,top=0.75in,right=0.75in,bottom=0.75in]{geometry}
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
